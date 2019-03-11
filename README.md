@@ -8,21 +8,23 @@ muscular system. In recent years, various
 classification criteria have been proposed for CP, to assist in diagnosis, clinical decision-making and communication. 
 
 # Data
+Dataset is available [HERE](https://drive.google.com/open?id=1ErKsk-7y6Z7ixHLEgBLAQ_9RdeoQwfWt).
+
 Our dataset refers to 1139 trials acquired from 178 patients affected by different stages of diplegia using high frequency VICON
 cameras in an Italian hospital.
-WARNING: some trial may be invalid (e.g. invalid markers throughout the sequence).
+WARNING: some trials may be invalid (e.g. invalid markers throughout the sequence).
 ## X
 Each .npy file has a variable number of frames. 
-For each frame, 19 markers are reported with 3D coordinates along with a validation flag.
+For each frame, 19 markers are reported with 3D coordinates (first 3 elements) along with a validation flag.
 If you're interested in other markers or other medical indicators, please write me an email.
 ## Y
-The path to a .npy file can be seen as follow:
+The path to a .npy file is the follow:
 ```
 base_folder/class_label/subject_label/.npy 
 ```
 # Utils
-Along with the script employed to extract .npy file, the repo comes with a usefull visualizer based on [Open3D](http://www.open3d.org/).
-Here there are some examples of the results:
+Along with the script employed to extract .npy file, the repo comes with a handy minimal visualizer based on [Open3D](http://www.open3d.org/).
+Here are some examples:
 
 <table style="width:100%">
     <tr>
@@ -40,10 +42,27 @@ Here there are some examples of the results:
         </th>
      </tr>
  </table>
- 
+
+<table style="width:100%">
+    <tr>
+        <th>
+            <p align="center">
+            <img src="./img/70_3.gif" alt="Example" width="75%" height="75%">
+            <br>Class 2 example.
+            </p>
+        </th>
+        <th>
+            <p align="center">
+            <img src="./img/114_1.gif" alt="Example" width="75%" height="75%">
+            <br>Class 3 example.
+            </p>
+        </th>
+     </tr>
+ </table>
 
 # How to cite
-Please cite **both** the followings:
+If you have employed our dataset in your research (or you want to give as some free refs :D),
+please cite **both** the followings:
 ```
 @inbook{inbook,
 author = {Bergamini, Luca and Calderara, Simone and Bicocchi, Nicola and Ferrari, Alberto and Vitetta, Giorgio},
