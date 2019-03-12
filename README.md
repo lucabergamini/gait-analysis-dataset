@@ -74,6 +74,13 @@ isbn = {978-3-319-70741-9},
 doi = {10.1007/978-3-319-70742-6_9}
 }
 
-Alberto Ferrari, Luca Bergamini, Giorgio Guerzoni, et al., “Gait-Based Diplegia Classification Using LSMT Networks,” Journal of Healthcare Engineering, vol. 2019, Article ID 3796898, 8 pages, 2019. https://doi.org/10.1155/2019/3796898.
+@article{ferrari2019gait,
+  title={Gait-Based Diplegia Classification Using LSMT Networks},
+  author={Ferrari, Alberto and Bergamini, Luca and Guerzoni, Giorgio and Calderara, Simone and Bicocchi, Nicola and Vitetta, Giorgio and Borghi, Corrado and Neviani, Rita and Ferrari, Adriano},
+  journal={Journal of Healthcare Engineering},
+  volume={2019},
+  year={2019},
+  publisher={Hindawi}
+}
 
 ```
