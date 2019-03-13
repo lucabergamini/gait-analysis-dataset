@@ -64,15 +64,15 @@ Here are some examples:
 If you have employed our dataset in your research (or you want to give as some free refs :D),
 please cite **both** the followings:
 ```
-@inbook{inbook,
-author = {Bergamini, Luca and Calderara, Simone and Bicocchi, Nicola and Ferrari, Alberto and Vitetta, Giorgio},
-year = {2017},
-month = {01},
-pages = {97-108},
-title = {Signal Processing and Machine Learning for Diplegia Classification},
-isbn = {978-3-319-70741-9},
-doi = {10.1007/978-3-319-70742-6_9}
+@inproceedings{bergamini2017signal,
+  title={Signal Processing and Machine Learning for Diplegia Classification},
+  author={Bergamini, Luca and Calderara, Simone and Bicocchi, Nicola and Ferrari, Alberto and Vitetta, Giorgio},
+  booktitle={International Conference on Image Analysis and Processing},
+  pages={97--108},
+  year={2017},
+  organization={Springer}
 }
+
 
 @article{ferrari2019gait,
   title={Gait-Based Diplegia Classification Using LSMT Networks},
