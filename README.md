@@ -61,7 +61,7 @@ Here are some examples:
  </table>
 
 # How to cite
-If you have employed our dataset in your research (or you want to give as some free refs :D),
+If you have employed our dataset in your research,
 please cite **both** the followings:
 ```
 @inproceedings{bergamini2017signal,
